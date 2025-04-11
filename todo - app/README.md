@@ -1,45 +1,30 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # Sticky Notes - To-Do App
 
-A minimal handcrafted-feel To-Do list app using **React**, **Vite**, and **Tailwind CSS**. Save your tasks with date & time, and never lose them — thanks to **localStorage** support!
-
----
+A simple and aesthetic to-do app that helps you manage tasks using sticky note-style cards. Built using React, Tailwind CSS, and local storage for persistence.
 
 ## Features
 
--  Add tasks with optional date/time
--  Mark complete / Undo
--  Edit task title
--  Delete tasks
--  Sort by date (asc/desc)
--  **Persistent via LocalStorage**
--  Minimal handcrafted design
+- Add tasks with title, date, and time
+- Mark tasks as completed or undo
+- Edit task titles directly on the card
+- Delete tasks
+- Sort tasks by date (ascending/descending)
+- Tasks are saved in local storage (no data loss on refresh)
+- Clean, handcrafted-style UI
 
----
+## Tech Stack
 
-##  Built With
+- React
+- Vite
+- Tailwind CSS
+- React DatePicker
+- date-fns
+- Lucide React (for calendar/sorting icons)
 
--  React (w/ Hooks)
--  Vite (dev server & bundler)
--  Tailwind CSS
+## Installation
 
----
-
-##  Setup
+1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
-cd todo-app
-npm install
-npm run dev
+git clone https://github.com/durgeshkr302/SCT_WD_4.git
+cd SCT_WD_4
